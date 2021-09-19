@@ -8,14 +8,14 @@ body {
 
 .header {
     display: flex;
-    background-color: #114c50;
+    background-color: #0f3133;
     color: #ffffff;
     justify-content: center;
     padding: 1rem;
     border-radius: 1rem;
 }
 
-.Bolorsaikhan profile picture {
+.Bolorsaikhan {
     position: absolute;
     right: 7%;
     box-shadow: 3px 5px 32px 8px rgba(0, 0, 0, 0.36);

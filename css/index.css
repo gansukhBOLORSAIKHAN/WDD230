@@ -17,7 +17,7 @@ body {
 
 .Bolorsaikhan profile picture {
     position: absolute;
-    right: 5%;
+    right: 7%;
     box-shadow: 3px 5px 32px 8px rgba(0, 0, 0, 0.36);
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .footer {
-    background-color: #114c50;
+    background-color: #0f3133;
     color: #ffffff;
     text-align: center;
     padding: 1rem;

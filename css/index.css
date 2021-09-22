@@ -24,6 +24,10 @@ body {
     padding: 1rem;
 }
 
+.h1 {
+    font-family: 'Grechen Fuemen', cursive;
+}
+
 .footer {
     background-color: #0f3133;
     color: #ffffff;

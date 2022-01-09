@@ -47,8 +47,15 @@
         </p>
     </footer>
     <script>
-        const LastUpdated = new Date();
-        console.log(LastUpdated);
+        // toLocalDateString
+        const options = {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        };
+        document.getElementById('currentdate').textcontent = newdate().toLocalDateString('en-us', options);
+        const LastUpdated = newDate();
     </script>
 </body>
 

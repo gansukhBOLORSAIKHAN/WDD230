@@ -5,8 +5,7 @@ body {
     font-size: 16px;
 }
 
-.header,
-footer {
+.header {
     display: flex;
     background-color: #0f3133;
     font-family: 'Grechen Fuemen', cursive;
@@ -24,19 +23,38 @@ footer {
     padding-top: 2rem;
 }
 
+.footer {
+    background-color: #0f3133;
+    font-family: 'Grechen Fuemen', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: .9rem;
+}
+
 .footer span {
     text-decoration: underline;
 }
 
-h1 {
+.h1 {
     font-size: 1.5em;
     margin: 0.15em;
+    font-family: 'Grechen Fuemen', cursive;
 }
 
 .h2 {
     font-size: 1rem;
-    border-bottom: 1px solid #75796c;
-    margin-bottom: 0.5em;
+    border-bottom: 1px solid #0f3133;
+    margin: 0.5em;
+}
+
+.card {
+    background-color: #D8D6D3;
+    max-width: 95%;
+    border: grey solid 5px;
+    border-radius: 2rem;
+    justify-self: center;
 }
 
 .card h2 {
@@ -48,6 +66,10 @@ h1 {
     color: whitesmoke;
     width: 50%;
     margin: 10px auto;
+}
+
+.card h3 {
+    text-align: center;
 }
 
 .card img {

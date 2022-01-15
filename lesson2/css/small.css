@@ -33,7 +33,7 @@ h1 {
     margin: 0.15em;
 }
 
-h2 {
+.h2 {
     font-size: 1rem;
     border-bottom: 1px solid #75796c;
     margin-bottom: 0.5em;

@@ -16,7 +16,7 @@ footer {
     border-radius: 1rem;
 }
 
-main {
+.main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -37,16 +37,6 @@ h1 {
     font-size: 1rem;
     border-bottom: 1px solid #75796c;
     margin-bottom: 0.5em;
-}
-
-.card1,
-.card2,
-.card3 {
-    background-color: #D8D6D3;
-    max-width: 95%;
-    border: grey solid 5px;
-    border-radius: 2rem;
-    justify-self: center;
 }
 
 .card h2 {

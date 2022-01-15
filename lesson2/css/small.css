@@ -5,7 +5,7 @@ body {
     font-size: 16px;
 }
 
-header,
+.header,
 footer {
     display: flex;
     background-color: #0f3133;
@@ -24,7 +24,7 @@ footer {
     padding-top: 2rem;
 }
 
-footer span {
+.footer span {
     text-decoration: underline;
 }
 

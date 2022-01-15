@@ -1,11 +1,11 @@
     @media( min-wadeth: 1280px) {
-        .main {
-            display: grid grid-temolate-columns: repeat(3, 1fr);
+        main {
+            display: grid grid-temolate-columns repeat(3, 1fr);
         }
-        .card h2 {
+        card h2 {
             font-size: 1.2rem;
         }
-        .card a,
+        card a,
         p {
             font-size: 1.2rem;
         }

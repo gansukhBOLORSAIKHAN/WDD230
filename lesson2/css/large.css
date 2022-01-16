@@ -1,8 +1,8 @@
     @media( max-wideth: 1200px) {
         .main {
-            min-width: 96%
+            min-width: 96%;
         }
-        card h1 {
+        .card {
             font-size: 1.2rem;
         }
         .footer span {

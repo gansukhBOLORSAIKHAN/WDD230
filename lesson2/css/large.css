@@ -1,8 +1,8 @@
-    @media( min-wadeth: 1200px) {
+    @media( max-wideth: 1200px) {
         main {
-            display: grid grid-template-columns repeat(1fr, 1fr, 1fr);
+            display: grid grid-template-columns repeat(3fr, 1fr);
         }
-        card h2 {
+        card h1 {
             font-size: 1.2rem;
         }
         card h1 {

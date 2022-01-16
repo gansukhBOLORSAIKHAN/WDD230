@@ -8,7 +8,7 @@
         .footer span {
             text-decoration: underline;
         }
-        .card h1 {
+        card h1 {
             max-width: 400px;
             padding: 5px;
             background-color: rgb(250, 250, 237);

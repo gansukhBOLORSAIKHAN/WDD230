@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -9,7 +10,7 @@ body {
 }
 
 main {
-    background-color: #4C4AFF;
+    background-color: #03333f;
     color: white;
     display: flex;
     flex-direction: column;
@@ -24,12 +25,8 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FB5607;
+    background: #03333f;
     color: white;
-}
-
-footer {
-    background: #167973;
 }
 
 header h1 {
@@ -39,15 +36,15 @@ header h1 {
 }
 
 nav {
-    background-color: #2E6BDF;
+    background-color: #297975;
+    text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1rem 0;
+    padding: 0;
     margin: 0;
     line-height: 1.6;
 }

@@ -110,16 +110,16 @@ backgroundBlack {
     background-color: #000000;
 }
 
-#colorTable {
+colorTable {
     border-collapse: 1px;
     margin: 15px;
 }
 
-#colorTable tr {
+colorTable tr {
     height: 300px;
 }
 
-#colorTable tr td {
+colorTable tr td {
     text-align: center;
     vertical-align: bottom;
     width: 250px;

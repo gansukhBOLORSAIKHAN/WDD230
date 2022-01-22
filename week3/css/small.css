@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    background-color: auto;
+    background-color: #03333f;
     color: white;
     display: flex;
     flex-direction: column;

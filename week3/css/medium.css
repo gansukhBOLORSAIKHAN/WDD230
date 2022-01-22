@@ -17,23 +17,23 @@
     nav ul li a {
         font-size: 16px;
     }
-    #typographyTable {
+    typographyTable {
         font-size: 16px;
     }
-    #typographyTable tr td,
-    #typographyTable tr th {
+    typographyTable tr td,
+    typographyTable tr th {
         padding: 12px;
     }
-    #typographyTable tr td:nth-child(2),
-    #typographyTable tr th:nth-child(2),
-    #typographyTable tr td:nth-child(4),
-    #typographyTable tr th:nth-child(4),
-    #typographyTable tr td:nth-child(5),
-    #typographyTable tr th:nth-child(5) {
+    typographyTable tr td:nth-child(2),
+    typographyTable tr th:nth-child(2),
+    typographyTable tr td:nth-child(4),
+    typographyTable tr th:nth-child(4),
+    typographyTable tr td:nth-child(5),
+    typographyTable tr th:nth-child(5) {
         display: revert;
     }
-    #colorTable tr td:nth-child(1),
-    #colorTable tr td:nth-child(5) {
+    colorTable tr td:nth-child(1),
+    colorTable tr td:nth-child(5) {
         display: revert;
     }
 }

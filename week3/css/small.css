@@ -111,7 +111,7 @@ backgroundBlack {
 }
 
 #colorTable {
-    border-collapse: collapse;
+    border-collapse: 1px;
     margin: 15px;
 }
 
@@ -154,8 +154,4 @@ backgroundBlack {
 #typographyTable tr td:nth-child(5),
 #typographyTable tr th:nth-child(5) {
     display: none;
-}
-
-.active a:hover {
-    color: #000000;
 }

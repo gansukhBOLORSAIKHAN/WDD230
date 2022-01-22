@@ -156,43 +156,6 @@ backgroundBlack {
     display: none;
 }
 
-
-/* navigation area - top */
-
-nav {
-    background-color: #f2be54;
-    text-align: center;
-}
-
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    flex-direction: column;
-}
-
-nav ul li {
-    padding: 15px;
-    flex: 1 1 auto;
-    /* nav buttons span full width*/
-}
-
-nav ul li a {
-    padding: 15px;
-    font-size: 16px;
-    color: #000000;
-}
-
-nav a:hover {
-    color: #ffffff;
-}
-
-.active {
-    background-color: #cacfd4;
-    height: 23px;
-}
-
 .active a:hover {
     color: #000000;
 }

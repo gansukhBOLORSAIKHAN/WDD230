@@ -126,16 +126,6 @@ backgroundBlack {
     padding: 15px;
 }
 
-#colorTable tr td:nth-child(1),
-#colorTable tr td:nth-child(5) {
-    display: none;
-    width: 250px;
-    padding: 15px;
-}
-
-
-/*typography table settings */
-
 #typographyTable {
     border-collapse: collapse;
     margin: 15px;

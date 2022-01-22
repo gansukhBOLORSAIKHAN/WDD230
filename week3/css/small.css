@@ -129,6 +129,8 @@ backgroundBlack {
 #colorTable tr td:nth-child(1),
 #colorTable tr td:nth-child(5) {
     display: none;
+    width: 250px;
+    padding: 15px;
 }
 
 

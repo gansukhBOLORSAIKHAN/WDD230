@@ -61,8 +61,138 @@ nav:hover {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
     color: yellow;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+backgroundWhite {
+    background-color: #ffffff;
+}
+
+backgroundYellow {
+    background-color: #f2be54;
+}
+
+backgroundGrey {
+    background-color: #cacfd4;
+}
+
+backgroundDarkBlue {
+    background-color: #153e5c;
+}
+
+backgroundBlack {
+    background-color: #000000;
+}
+
+#colorTable {
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+#colorTable tr {
+    height: 300px;
+}
+
+#colorTable tr td {
+    text-align: center;
+    vertical-align: bottom;
+    width: 250px;
+    padding: 15px;
+}
+
+#colorTable tr td:nth-child(1),
+#colorTable tr td:nth-child(5) {
+    display: none;
+}
+
+
+/*typography table settings */
+
+#typographyTable {
+    border-collapse: collapse;
+    margin: 15px;
+    font-size: 10px;
+}
+
+#typographyTable tr td,
+#typographyTable tr th {
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 250px;
+}
+
+#typographyTable tr td:nth-child(2),
+#typographyTable tr th:nth-child(2),
+#typographyTable tr td:nth-child(4),
+#typographyTable tr th:nth-child(4),
+#typographyTable tr td:nth-child(5),
+#typographyTable tr th:nth-child(5) {
+    display: none;
+}
+
+
+/* navigation area - top */
+
+nav {
+    background-color: #f2be54;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav ul li {
+    padding: 15px;
+    flex: 1 1 auto;
+    /* nav buttons span full width*/
+}
+
+nav ul li a {
+    padding: 15px;
+    font-size: 16px;
+    color: #000000;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.active {
+    background-color: #cacfd4;
+    height: 23px;
+}
+
+.active a:hover {
+    color: #000000;
 }

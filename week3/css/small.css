@@ -127,7 +127,7 @@ backgroundBlack {
 }
 
 typographyTable {
-    border-collapse: 1px;
+    border-collapse: 5px;
     margin: 15px;
     font-size: 10px;
 }

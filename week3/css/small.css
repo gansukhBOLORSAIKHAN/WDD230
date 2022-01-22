@@ -115,11 +115,11 @@ colorTable {
     margin: 15px;
 }
 
-colorTable tr {
+#colorTable tr {
     height: 300px;
 }
 
-colorTable tr td {
+#colorTable tr td {
     text-align: center;
     vertical-align: bottom;
     width: 250px;

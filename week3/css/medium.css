@@ -1,27 +1,39 @@
-/* 
-  ##Device = Tablets, Ipads 
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 40em) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
     nav ul {
-        flex-direction: row;
-        justify-content: center;
+        flex-flow: row wrap;
     }
-    nav li {
-        margin-right: 1rem;
+    nav ul li a {
+        font-size: 16px;
     }
-    nav li:last-child {
-        margin-right: 0;
+    #typographyTable {
+        font-size: 16px;
     }
-    .cards {
-        display: flex;
-        flex-direction: row;
-        min-width: 620px;
-        max-width: 720px;
-        flex-wrap: wrap;
+    #typographyTable tr td,
+    #typographyTable tr th {
+        padding: 12px;
     }
-    .cards .card {
-        flex: 0 0 50%;
+    #typographyTable tr td:nth-child(2),
+    #typographyTable tr th:nth-child(2),
+    #typographyTable tr td:nth-child(4),
+    #typographyTable tr th:nth-child(4),
+    #typographyTable tr td:nth-child(5),
+    #typographyTable tr th:nth-child(5) {
+        display: revert;
+    }
+    #colorTable tr td:nth-child(1),
+    #colorTable tr td:nth-child(5) {
+        display: revert;
     }
 }

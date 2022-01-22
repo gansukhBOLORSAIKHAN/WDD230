@@ -1,25 +1,21 @@
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px
-*/
-
-@media (min-width: 1025px) {
-    nav ul {
-        flex-direction: row;
-        justify-content: center;
+@media only screen and (min-width: 60em) {
+    h1 {
+        font-size: 40px;
     }
-    nav li {
-        margin-right: 1rem;
+    h2 {
+        font-size: 30px;
     }
-    nav li:last-child {
-        margin-right: 0;
+    h3 {
+        font-size: 25px;
     }
-    .cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    h4 {
+        font-size: 20px;
     }
-    .cards .card {
-        flex: 0 0 33.333333%;
+    nav ul li a {
+        font-size: 20px;
+    }
+    #typographyTable tr td,
+    #typographyTable tr th {
+        padding: 15px;
     }
 }

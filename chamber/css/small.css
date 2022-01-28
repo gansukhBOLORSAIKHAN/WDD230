@@ -15,7 +15,7 @@
  }
  /* heading */
  
- .header {
+ header {
      background-color: #153e5c;
      display: flex;
      align-items: center;
@@ -35,7 +35,7 @@
  
  .headings h1 {
      font-size: 20px;
-     color: #ffffff;
+     color: #ebb2b2;
      margin: 0;
  }
  

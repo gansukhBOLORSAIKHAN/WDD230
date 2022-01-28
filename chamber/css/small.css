@@ -15,7 +15,7 @@
  }
  /* heading */
  
- header {
+ .header {
      background-color: #153e5c;
      display: flex;
      align-items: center;
@@ -107,7 +107,7 @@
  /* footer */
  
  footer {
-     background-color: #f2be54;
+     background-color: #f5f4f3;
      display: flex;
      align-items: center;
      justify-content: center;

@@ -1,14 +1,14 @@
-nav button {
+.nav button {
     margin: .2rem 2vw;
     background-color: transparent;
     border: none;
 }
 
-nav {
+.nav {
     background-color: #eee;
 }
 
-nav ui {
+.nav ui {
     list-style-type: none;
     padding: 0;
     margin: 0;

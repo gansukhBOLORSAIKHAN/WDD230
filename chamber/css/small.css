@@ -1,4 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+footer,
+main {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+header,
+nav {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #153e5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+headings h1 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+ner {
+    color: #f2be54;
+    font-style: italic;
+    font-size: 12px;
+}
+
 nav button {
     margin: .2rem 2vw;
     background-color: transparent;

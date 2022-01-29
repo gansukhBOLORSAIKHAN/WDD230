@@ -1,4 +1,4 @@
-const hamButton = document.querySelector('.Ner');
+const hamButton = document.querySelector('.ham');
 const mainMenu = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () => { mainMenu.classList.toggle('responsive') }, false);
@@ -8,6 +8,7 @@ window.onresize = () => {
         mainMenu.classList.remove('responsive');
     }
 }
+
 var currentDate = new Date();
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

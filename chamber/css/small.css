@@ -17,7 +17,7 @@ nav {
 header {
     background-color: #153e5c;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
 }
 

@@ -10,6 +10,11 @@ main {
     margin: 0 auto;
 }
 
+header,
+nav {
+    margin: 0 auto;
+}
+
 header {
     background-color: #153e5c;
     display: flex;
@@ -40,41 +45,97 @@ header img {
     font-size: 12px;
 }
 
-nav button {
-    display: none;
-    margin: .2rem 2vw;
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    color: rgb(14, 13, 13);
-}
-
 nav {
-    background-color: rgb(250, 243, 243);
+    background-color: #f2be54;
 }
 
-nav ul {
-    list-style-type: none;
+.navigation {
+    max-width: 80em;
+    list-style: none;
+    background-color: #f2be54;
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
+    text-align: center;
 }
 
-nav ul li a {
+.navigation li:first-child {
     display: block;
-    padding: .8rem 2vw;
-    text-decoration: none;
-    color: #333;
-    border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
 
-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-nav ul {
+.navigation li {
     display: none;
 }
 
-nav ul.open {
+.navigation a {
     display: block;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:hover {
+    background-color: #153e5c;
+    color: #ffffff;
+}
+
+.active {
+    background-color: #cacfd4;
+    border-left: 4px solid #153e5c;
+    border-right: 4px solid #153e5c;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+main div {
+    border: dotted 1px #153e5c;
+    background-color: #cacfd4;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #f2be54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/* typography */
+
+h1 {
+    font-size: 20px;
+    color: #153e5c;
+}
+
+h2 {
+    font-size: 16px;
+    color: #153e5c;
+}
+
+h3 {
+    font-size: 14px;
+    color: #153e5c;
+}
+
+p {
+    font-size: 12px;
 }

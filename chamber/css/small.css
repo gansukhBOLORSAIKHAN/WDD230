@@ -52,7 +52,7 @@
  .navigation {
      max-width: 80em;
      list-style: none;
-     background-color: #153e5c;
+     background-color: #f2be54;
      margin: 0 auto;
      padding: 0;
      text-align: center;
@@ -80,7 +80,7 @@
  }
  
  nav a:hover {
-     background-color: #153e5c;
+     background-color: #f2be54;
      color: #ffffff;
  }
  
@@ -105,7 +105,7 @@
  }
  
  footer {
-     background-color: #03333f;
+     background-color: #f2be54;
      display: flex;
      align-items: center;
      justify-content: center;

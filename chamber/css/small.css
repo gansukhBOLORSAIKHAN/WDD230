@@ -69,7 +69,7 @@
  .navigation a {
      display: block;
      font-size: 16px;
-     color: #000000;
+     color: #ffffff;
      text-decoration: none;
      padding-top: 15px;
      padding-bottom: 15px;
@@ -103,7 +103,6 @@
      margin: 15px;
      padding: 15px;
  }
- /* footer */
  
  footer {
      background-color: #03333f;

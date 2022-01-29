@@ -44,7 +44,6 @@
      font-style: italic;
      font-size: 12px;
  }
- /*header navigation */
  
  nav {
      background-color: #297975;
@@ -53,7 +52,7 @@
  .navigation {
      max-width: 80em;
      list-style: none;
-     background-color: #f2be54;
+     background-color: #153e5c;
      margin: 0 auto;
      padding: 0;
      text-align: center;

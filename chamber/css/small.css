@@ -52,7 +52,7 @@
  .navigation {
      max-width: 80em;
      list-style: none;
-     background-color: #f2be54;
+     background-color: #153e5c;
      margin: 0 auto;
      padding: 0;
      text-align: center;
@@ -80,16 +80,9 @@
  }
  
  nav a:hover {
-     background-color: #f2be54;
+     background-color: #153e5c;
      color: #ffffff;
  }
- 
- .active {
-     background-color: #cacfd4;
-     border-left: 4px solid #153e5c;
-     border-right: 4px solid #153e5c;
- }
- /* temp main divs */
  
  main {
      display: flex;
@@ -105,7 +98,7 @@
  }
  
  footer {
-     background-color: #f2be54;
+     background-color: #03333f;
      display: flex;
      align-items: center;
      justify-content: center;

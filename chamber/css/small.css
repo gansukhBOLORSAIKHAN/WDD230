@@ -22,6 +22,7 @@ header {
 }
 
 header img {
+    padding-left: 2px;
     width: 80px;
     height: auto;
 }

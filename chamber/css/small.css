@@ -9,12 +9,6 @@ main {
     margin: 0 auto;
 }
 
-header,
-nav {
-    max-width: 80em;
-    margin: 0 auto;
-}
-
 header {
     background-color: #153e5c;
     display: flex;

@@ -2,7 +2,7 @@
     nav button {
         display: none;
     }
-    nav ul#primeryNav {
+    nav ul#primaryNav {
         display: flex;
         justify-content: center;
         margin-block-end: 2vw;

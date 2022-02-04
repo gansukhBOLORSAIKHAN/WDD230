@@ -23,7 +23,7 @@ main {
     margin: 0.5rem auto;
     border: 1px solid #999;
     padding: 0.5rem;
-    background-color: rgb(72, 60, 116);
+    background-color: rgb(159, 148, 197);
     display: grid;
     grid-template-columns: 1fr;
     width: 95%;

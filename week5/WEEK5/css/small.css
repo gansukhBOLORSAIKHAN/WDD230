@@ -61,10 +61,6 @@ nav li {
     display: none;
 }
 
-nav li:first-child {
-    display: block;
-}
-
 nav a {
     text-decoration: none;
     color: #000000;

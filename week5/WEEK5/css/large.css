@@ -4,7 +4,7 @@
         justify-content: center;
     }
     nav li {
-        margin-right: 1rem;
+        margin-right: 05rem;
         display: flex;
     }
     nav li:first-child {

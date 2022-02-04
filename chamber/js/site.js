@@ -1,16 +1,37 @@
-const hamButton = document.querySelector('.ham');
-const mainMenu = document.querySelector('.navigation');
+let dayNames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
 
-hamButton.addEventListener('click', () => { mainMenu.classList.toggle('responsive') }, false);
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
 
-window.onresize = () => {
-    if (window.innerWidth > 760) {
-        mainMenu.classList.remove('responsive');
-    }
+let curDate = new Date();
+let dayName = dayNames[curDate.getDay()];
+let monthName = months[curDate.getMonth()];
+let year = curDate.getFullYear();
+let currentDate = `${dayName}, ${curDate.getDate()}, ${monthName} ${year}`;
+
+document.getElementById("currentDate").innerHTML = currentDate;
+
+/* display banner only fridays */
+if (dayName === "Friday") {
+    document.getElementById("banner-top").style.display = "block";
 }
-
-var currentDate = new Date();
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-document.getElementById("output").innerHTML = days[currentDate.getDay()] + ", " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear();

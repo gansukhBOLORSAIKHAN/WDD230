@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-color: #4C4AFF;
+    background-color: #153e5c;
     color: white;
     display: flex;
     flex-direction: column;
@@ -21,13 +21,10 @@ main {
 
 header,
 footer {
+    background-color: #153e5c;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    background: #FB5607;
-    color: white;
+    justify-content: center;
 }
 
 footer {

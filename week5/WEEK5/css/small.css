@@ -28,7 +28,7 @@ footer {
 }
 
 footer {
-    background: #167973;
+    background: #1dcfc6;
 }
 
 header h1 {
@@ -93,11 +93,6 @@ a {
 .card ul {
     list-style: none;
     padding: 0;
-}
-
-.cloudy-logo {
-    display: flex;
-    justify-content: center;
 }
 
 table {

@@ -23,7 +23,7 @@ main {
     margin: 0.5rem auto;
     border: 1px solid #999;
     padding: 0.5rem;
-    background-color: rgb(250, 71, 0);
+    background-color: rgb(72, 60, 116);
     display: grid;
     grid-template-columns: 1fr;
     width: 95%;
@@ -48,7 +48,7 @@ label {
     border: 1px solid #bbb;
     margin: 1rem;
     padding: 1rem;
-    background-color: royalblue;
+    background-color: rgb(136, 143, 165);
     color: seashell
 }
 

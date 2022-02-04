@@ -133,7 +133,5 @@ th {
     display: block;
 }
 
-.expand-menu li:first-child a {
-    color: #111111;
-    text-decoration: none;
+
 }

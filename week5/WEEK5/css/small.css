@@ -41,12 +41,14 @@ header h1 {
     margin: 0;
 }
 
-header .motto {
+.moto {
+    color: #f2be54;
     font-style: italic;
+    font-size: 12px;
 }
 
 nav {
-    background-color: #2E6BDF;
+    background-color: #1dcfc6;
 }
 
 nav ul {
@@ -76,6 +78,8 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    background-color: #153e5c;
+    color: #ffffff;
 }
 
 a {
@@ -119,7 +123,7 @@ th {
 }
 
 .secondary-background {
-    background-color: #4c4aff;
+    background-color: #153e5c;
     text-align: center;
 }
 

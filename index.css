@@ -1,5 +1,6 @@
 body {
     font-size: 18px;
+    max-width: 760px;
 }
 
 header,
@@ -9,8 +10,6 @@ footer {
     font-family: 'Grechen Fuemen', cursive;
     color: #ffffff;
     border-radius: 1rem;
-    margin: 1.25rem;
-    max-width: 760px;
 }
 
 h1 {

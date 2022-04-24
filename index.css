@@ -2,7 +2,10 @@ body {
     max-width: 760px;
 }
 
-.header {
+header,
+nav,
+main,
+footer {
     display: flex;
     background-color: #0f3133;
     font-family: 'Grechen Fuemen', cursive;
@@ -14,8 +17,7 @@ body {
 
 .profile-picture {
     width: 200px;
-    height: auto;
-    padding: rigth;
+    height: 250px;
 }
 
 .main {
@@ -37,8 +39,6 @@ body {
 .footer {
     background-color: #0f3133;
     color: #ffffff;
-    text-align: center;
-    padding: 1rem;
     border-radius: 1rem;
     font-size: .9rem;
 }

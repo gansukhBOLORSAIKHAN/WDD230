@@ -1,19 +1,17 @@
 body {
-    max-width: 760px;
-    padding: center;
-    line-height: 1.5rem;
-    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 header,
-nav,
-main,
 footer {
     display: flex;
     background-color: #0f3133;
     font-family: 'Grechen Fuemen', cursive;
     color: #ffffff;
     border-radius: 1rem;
+    margin: 1.25rem;
+    max-width: 760px;
 }
 
 profile-picture {

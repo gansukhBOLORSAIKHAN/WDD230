@@ -13,9 +13,9 @@ footer {
 }
 
 img {
-    grid-auto-flow: row;
-    width: 10px;
-    height: 15px;
+    float: auto;
+    width: 100px;
+    height: 150px;
 }
 
 h1 {

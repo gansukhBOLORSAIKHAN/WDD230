@@ -14,8 +14,9 @@ footer {
 }
 
 profile-picture {
-    width: 100px;
-    height: 150px;
+    float: left;
+    width: 10px;
+    height: 15px;
 }
 
 h1 {

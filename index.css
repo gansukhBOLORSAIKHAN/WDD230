@@ -1,5 +1,10 @@
+body {
+    max-width: 760px;
+    padding: center;
+    line-height: 1.5rem auto;
+}
+
 header,
-body,
 nav,
 main,
 footer {
@@ -8,9 +13,6 @@ footer {
     font-family: 'Grechen Fuemen', cursive;
     color: #ffffff;
     border-radius: 1rem;
-    margin: 1.25rem auto;
-    padding: center;
-    max-width: 760px;
     text-align: center;
 }
 

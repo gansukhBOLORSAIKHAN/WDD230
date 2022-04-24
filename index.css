@@ -11,15 +11,12 @@ footer {
     font-family: 'Grechen Fuemen', cursive;
     color: #ffffff;
     border-radius: 1rem;
+    margin-block: 1.25rem auto;
 }
 
 .profile-picture {
     width: 200px;
     height: 250px;
-}
-
-.main {
-    padding: 1rem;
 }
 
 .h1 {

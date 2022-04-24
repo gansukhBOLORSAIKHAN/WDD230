@@ -14,24 +14,24 @@ footer {
     margin-block: 1.25rem auto;
 }
 
-.profile-picture {
+profile-picture {
     width: 200px;
     height: 250px;
 }
 
-.h1 {
+h1 {
     font-size: 1.5em;
     margin: 0.15em;
     font-family: 'Grechen Fuemen', cursive;
 }
 
-.h2 {
+h2 {
     font-size: 1rem;
     border-bottom: 1px solid #0f3133;
     margin: 0.5em;
 }
 
-.footer {
+footer {
     background-color: #0f3133;
     color: #ffffff;
     border-radius: 1rem;

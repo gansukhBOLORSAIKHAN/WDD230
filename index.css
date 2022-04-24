@@ -12,7 +12,7 @@ footer {
     border-radius: 1rem;
 }
 
-profile-picture {
+img {
     grid-auto-flow: row;
     width: 10px;
     height: 15px;

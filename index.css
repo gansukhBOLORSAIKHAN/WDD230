@@ -1,7 +1,7 @@
 body {
     max-width: 760px;
     padding: center;
-    line-height: 1.5rem auto;
+    line-height: 1.5rem;
     background-color: #ffffff;
 }
 
@@ -14,7 +14,6 @@ footer {
     font-family: 'Grechen Fuemen', cursive;
     color: #ffffff;
     border-radius: 1rem;
-    text-align: center;
 }
 
 profile-picture {

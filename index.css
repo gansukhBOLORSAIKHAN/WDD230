@@ -22,6 +22,6 @@ footer {
 }
 
 img {
-    float: left;
-    margin-left: 150px;
+    justify-content: center;
+    width: 300px;
 }

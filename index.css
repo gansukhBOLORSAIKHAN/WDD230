@@ -7,12 +7,15 @@ body {
 }
 
 header,
+main,
+nav,
 footer {
     display: flex;
     background-color: #0f3133;
     font-family: 'Grechen Fuemen', cursive;
     color: #ffffff;
     border-radius: 1rem;
+    margin: 1.25rem auto;
 }
 
 img {
@@ -33,6 +36,7 @@ h2 {
 }
 
 footer {
+    padding: ;
     background-color: #0f3133;
     color: #ffffff;
     border-radius: 1rem;

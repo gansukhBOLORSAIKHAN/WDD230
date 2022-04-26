@@ -16,6 +16,7 @@ footer {
     color: #ffffff;
     border-radius: 1rem;
     margin: 1.25rem auto;
+    max-width: 760px;
 }
 
 img {

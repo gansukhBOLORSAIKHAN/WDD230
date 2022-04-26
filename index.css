@@ -2,8 +2,6 @@ body {
     font-size: 18px;
     max-width: 760px;
     justify-content: space-around;
-    margin: .5rem;
-    padding: .5rem;
 }
 
 header,

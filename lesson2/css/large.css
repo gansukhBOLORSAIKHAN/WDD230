@@ -1,6 +1,6 @@
 @media (min-width: 1280px) {
     .main {
-        display: grid;
+        display: flex;
         grid-template-columns: repeat(3, 1fr);
     }
     .card h2 {

@@ -43,7 +43,8 @@ h1 {
     justify-self: center;
 }
 
-.card h2 {
+.card h2,
+h3 {
     background-color: #1b7e85;
     display: block;
     padding: 10px 10px;
@@ -52,10 +53,6 @@ h1 {
     color: #f7f7f7;
     width: 50%;
     margin: 10px auto;
-}
-
-.card h3 {
-    text-align: center;
 }
 
 .card img {

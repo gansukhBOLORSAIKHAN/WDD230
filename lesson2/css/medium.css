@@ -1,4 +1,4 @@
-@media (min-width:80%) {
+@media (min-width:560px) {
     .main {
         display: flex;
         grid-template-columns: repeat(2, 1fr);

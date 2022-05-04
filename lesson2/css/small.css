@@ -2,7 +2,12 @@ body {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
     font-size: 18px;
     max-width: 760px;
-    line-height: normal;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {

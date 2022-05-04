@@ -2,7 +2,6 @@ body {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
     font-size: 16px;
     max-width: 760px;
-    line-height: normal;
     justify-content: center;
 }
 
@@ -25,8 +24,6 @@ h6 {
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 1fr;
     grid-gap: 20px;
     font-size: 0.8rem;
     padding-top: 2rem;

@@ -20,7 +20,8 @@ h1 {
 .main {
     grid-gap: 20px;
     font-size: 0.8rem;
-    padding-top: 20rem;
+    padding-top: 2rem;
+    justify-content: center;
 }
 
 .footer {

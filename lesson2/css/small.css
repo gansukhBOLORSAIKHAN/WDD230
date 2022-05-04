@@ -15,7 +15,6 @@ h6 {
 }
 
 .header {
-    display: flex;
     background-color: #114c50;
     color: #ffffff;
     justify-content: center;
@@ -37,10 +36,6 @@ h6 {
     border-radius: 1rem;
     font-size: .9rem;
     margin-top: 2rem;
-}
-
-.footer span {
-    text-decoration: underline;
 }
 
 .card {

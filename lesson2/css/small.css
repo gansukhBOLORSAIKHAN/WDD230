@@ -43,18 +43,6 @@ h1 {
     justify-self: center;
 }
 
-.card h2,
-h3 {
-    background-color: #1b7e85;
-    display: block;
-    padding: 10px 10px;
-    border-radius: .5rem;
-    text-align: center;
-    color: #f7f7f7;
-    width: 50%;
-    margin: 10px auto;
-}
-
 .card h3 {
     text-align: center;
 }
@@ -77,4 +65,11 @@ h3 {
     width: 50%;
     text-align: center;
     border-radius: 100px;
+}
+
+.card p {
+    text-align: justify;
+    padding: 0px 10px;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
 }

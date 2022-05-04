@@ -55,13 +55,12 @@ h1 {
 }
 
 .card h3 {
-    text-align: center;
     background-color: #1b7e85;
     display: block;
     padding: 10px 10px;
     border-radius: .5rem;
     text-align: center;
-    color: #0b75a6;
+    color: #f7f7f7;
     width: 50%;
     margin: 10px auto;
 }

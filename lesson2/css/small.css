@@ -4,13 +4,6 @@ body {
     max-width: 760px;
 }
 
-.body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: auto;
-}
-
 h1 {
     font-family: 'Montserrat', sans-serif;
 }

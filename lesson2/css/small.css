@@ -64,7 +64,7 @@ h1 {
 .card a {
     background-color: #1b7e85;
     display: block;
-    padding: 10px 10px;
+    padding: auto;
     border-radius: .5rem;
     text-align: center;
     color: #f7f7f7;

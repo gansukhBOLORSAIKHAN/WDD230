@@ -63,7 +63,7 @@ h1 {
 
 .card a {
     background: #114c50;
-    text-decoration: none;
+    text-decoration: transparent;
     color: #fff;
     font-size: 18px;
     padding: 10px;
@@ -79,5 +79,4 @@ h1 {
     padding: 0px 10px;
     line-height: 1.4rem;
     font-size: 1.2rem;
-    color: #fff;
 }

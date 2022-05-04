@@ -1,7 +1,7 @@
 @media (min-width:560px) {
     .main {
         display: flex;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 2fr);
     }
     .card h2 {
         font-size: 16px;

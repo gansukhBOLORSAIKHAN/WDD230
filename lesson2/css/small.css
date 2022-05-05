@@ -19,7 +19,7 @@ h1 {
 }
 
 .main {
-    grid-gap: 10px;
+    grid-template-columns: repeat( 1fr);
     font-size: 0.8rem;
     padding-top: 2rem;
     justify-content: center;

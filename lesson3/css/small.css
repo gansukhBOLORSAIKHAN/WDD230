@@ -47,18 +47,3 @@ nav ul {
     margin: 0;
     line-height: 1.6;
 }
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-a {
-    color: white;
-}

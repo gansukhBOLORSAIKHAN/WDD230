@@ -1,0 +1,39 @@
+body {
+    font-size: 18px;
+    line-height: normal;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: #0f3133;
+    color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+img {
+    justify-content: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0.15em;
+    font-family: 'Grechen Fuemen', cursive;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 1rem;
+    border-bottom: 1px solid #0f3133;
+    margin: 0.5em;
+}

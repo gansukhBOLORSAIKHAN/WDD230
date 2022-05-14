@@ -7,10 +7,6 @@
         display: flex;
         margin-left: 2vw;
     }
-    nav li {
-        margin-right: 05rem;
-        display: flex;
-    }
     nav ul li a {
         border: none;
     }

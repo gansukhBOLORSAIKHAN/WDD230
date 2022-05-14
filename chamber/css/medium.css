@@ -3,6 +3,7 @@
         display: none;
     }
     nav ul#navigation {
+        flex-direction: row;
         display: flex;
         margin-left: 2vw;
     }

@@ -5,7 +5,6 @@
     nav ul#navigation {
         display: flex;
         margin-left: 2vw;
-        justify-content: center;
     }
     nav li {
         margin-right: 05rem;

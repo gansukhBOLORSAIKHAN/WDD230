@@ -70,6 +70,10 @@
         line-height: .1;
     }
     
+    nav ul.open {
+        display: block;
+    }
+    
     nav li {
         display: none;
     }

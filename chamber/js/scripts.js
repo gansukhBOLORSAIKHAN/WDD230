@@ -1,5 +1,5 @@
 function toggleMenu() {
-    console.log("it worked!");
+    document.getElementById("navigation").classList.toggle("open");
 
 }
 

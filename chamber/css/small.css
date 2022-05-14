@@ -53,6 +53,12 @@
         background-color: #1dcfc6;
     }
     
+    nav button {
+        margin: .2rem 2vm;
+        background: transparent;
+        border: none;
+    }
+    
     nav ul {
         list-style: none;
         display: flex;

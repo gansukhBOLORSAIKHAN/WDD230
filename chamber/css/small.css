@@ -1,92 +1,89 @@
-   body {
-       font-family: 'Lato', Helvetica, Arial, sans-serif;
-       font-size: 18px;
-       max-width: 760px;
-       margin: auto;
-       justify-content: center;
-   }
-   
-   header img {
-       width: 80px;
-       height: auto;
-   }
-   
-   header,
-   footer {
-       background-color: #153e5c;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-   }
-   
-   body {
-       font-family: 'Roboto', Arial, sans-serif;
-       font-size: 18px;
-       line-height: 1.5;
-       padding: 0;
-       margin: 0;
-   }
-   
-   main {
-       background-color: #153e5c;
-       color: white;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       padding-bottom: 1rem;
-   }
-   
-   footer {
-       background: #1dcfc6;
-   }
-   
-   header h1 {
-       text-align: center;
-       color: white;
-       margin: 0;
-   }
-   
-   .moto {
-       color: #f2be54;
-       font-style: italic;
-       font-size: 20px;
-   }
-   
-   nav {
-       background-color: #1dcfc6;
-   }
-   
-   nav button {
-       margin: .2rem 2vm;
-       background: transparent;
-       border: none;
-       font-size: 2rem;
-   }
-   
-   nav ul {
-       list-style-type: none;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       padding: 1rem 0;
-       margin: 0;
-       line-height: .1;
-   }
-   
-   nav ul.open {
-       display: block;
-   }
-   
-   nav li a {
-       display: none;
-       text-decoration: aqua;
-       color: #000000;
-       font-size: 1rem;
-       font-weight: 15px;
-   }
-   
-   nav a:hover {
-       text-decoration: none;
-       background-color: #153e5c;
-       color: #7e7a7a;
-   }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    * {
+        box-sizing: content-box;
+    }
+    
+    header img {
+        width: 80px;
+        height: auto;
+    }
+    
+    header,
+    footer {
+        background-color: #153e5c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    body {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 0;
+        margin: 0;
+    }
+    
+    main {
+        background-color: #153e5c;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    
+    footer {
+        background: #1dcfc6;
+    }
+    
+    header h1 {
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+    
+    .moto {
+        color: #f2be54;
+        font-style: italic;
+        font-size: 20px;
+    }
+    
+    nav {
+        background-color: #1dcfc6;
+    }
+    
+    nav button {
+        margin: .2rem 2vm;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+        margin: 0;
+        line-height: .1;
+    }
+    
+    nav ul.open {
+        display: block;
+    }
+    
+    nav li a {
+        display: none;
+        text-decoration: aqua;
+        color: #000000;
+        font-size: 1rem;
+        font-weight: 15px;
+    }
+    
+    nav a:hover {
+        text-decoration: none;
+        background-color: #153e5c;
+        color: #7e7a7a;
+    }

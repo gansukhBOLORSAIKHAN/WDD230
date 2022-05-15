@@ -76,7 +76,7 @@
     
     nav li a {
         display: none;
-        text-decoration: none;
+        text-decoration: aqua;
         color: #000000;
         font-size: 1rem;
         font-weight: 15px;
@@ -85,5 +85,5 @@
     nav a:hover {
         text-decoration: none;
         background-color: #153e5c;
-        color: #ffffff;
+        color: #7e7a7a;
     }

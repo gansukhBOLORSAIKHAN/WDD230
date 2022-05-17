@@ -1,6 +1,5 @@
 @media (min-width: 1025px) {
     nav ul {
-        flex-direction: row;
         justify-content: center;
     }
 }

@@ -49,7 +49,7 @@
     }
     
     nav ul {
-        list-style: lower-greek;
+        list-style: linear-gradient();
         display: flex;
         flex-direction: column;
         align-items: center;

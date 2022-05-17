@@ -1,6 +1,9 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    * {
-        box-sizing: border-box;
+    body {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 760px;
+        margin: auto;
     }
     
     header img {
@@ -14,14 +17,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    body {
-        font-family: 'Roboto', Arial, sans-serif;
-        font-size: 18px;
-        line-height: 1.5;
-        padding: 0;
-        margin: 0;
     }
     
     main {
@@ -62,11 +57,7 @@
         margin: 0;
         line-height: .1;
     }
-    
-    nav li {
-        display: none;
-    }
-    
+
     nav a {
         text-decoration: none;
         color: #000000;

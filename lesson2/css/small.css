@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     max-width: 760px;
     margin: auto;
+    justify-content: center;
 }
 
 h1 {

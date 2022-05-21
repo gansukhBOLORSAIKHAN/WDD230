@@ -57,6 +57,14 @@
         display: block;
     }
     
+    nav>ul {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        list-style: none;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
     nav>ul .toggler+li {
         grid-column: 1;
     }

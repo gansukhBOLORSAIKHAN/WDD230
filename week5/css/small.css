@@ -1,0 +1,85 @@
+    body {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 760px;
+        margin: auto;
+    }
+    
+    header img {
+        width: 80px;
+        height: auto;
+    }
+    
+    header,
+    footer {
+        background-color: #153e5c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main {
+        background-color: #153e5c;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    
+    footer {
+        background: #1dcfc6;
+    }
+    
+    header h1 {
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+    
+    .moto {
+        color: #f2be54;
+        font-style: italic;
+        font-size: 20px;
+    }
+    
+    nav {
+        background-color: #1dcfc6;
+        position: sticky;
+    }
+    
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+    
+    nav ul .toggler a {
+        display: block;
+    }
+    
+    nav>ul .toggler+li {
+        grid-column: 1;
+    }
+    
+    nav li.toggler a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+        font-weight: 10px;
+    }
+    
+    .navigation {
+        display: flex;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10px;
+    }
+    
+    nav a:hover {
+        text-decoration: none;
+        background-color: #246492;
+        color: #ffffff;
+    }
+    
+    a {
+        color: #ffffff;
+    }

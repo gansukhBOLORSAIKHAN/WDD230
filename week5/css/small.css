@@ -17,6 +17,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
+        color: #ffffff;
     }
     
     main {
@@ -26,37 +28,6 @@
         flex-direction: column;
         align-items: center;
         padding-bottom: 1rem;
-    }
-    
-    section.article p {
-        padding-left: 10px;
-    }
-    
-    div.hero {
-        z-index: 1;
-        position: relative;
-        background-image: url("emages/llll.jpg");
-        background-size: cover;
-        background-position: left bottom;
-        min-height: 200px;
-        overflow: hidden;
-    }
-    
-    .img-holder img {
-        width: 100%;
-    }
-    
-    div.social-links .fa-flickr:hover {
-        cursor: pointer;
-        background: linear-gradient(90deg, royalblue, deeppink);
-        background-clip: padding-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-    section.summary {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
     
     footer {
@@ -121,4 +92,107 @@
     
     a {
         color: #ffffff;
+    }
+    
+    .card {
+        text-align: left;
+        border: white dashed 2px;
+        margin: 4rem 0;
+        padding: 1rem;
+        max-width: 900px;
+    }
+    
+    .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cloudy-logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    table {
+        display: table;
+    }
+    
+    td,
+    th {
+        width: 150px;
+        border: 2px dashed white;
+    }
+    
+    .container-table {
+        margin-top: 1rem;
+    }
+    
+    .primary-background {
+        background-color: #FB5607;
+        text-align: center;
+    }
+    
+    .secondary-background {
+        background-color: #4c4aff;
+        text-align: center;
+    }
+    
+    .accent1-background {
+        background-color: #167973;
+        text-align: center;
+    }
+    
+    .accent2-background {
+        background-color: #2E6BDF;
+        text-align: center;
+    }
+    
+    .expand-menu li {
+        display: block;
+    }
+    
+    .expand-menu li:first-child a {
+        color: #111111;
+        text-decoration: none;
+    }
+    
+    .banner-hero {
+        position: relative;
+    }
+    
+    .banner-hero img {
+        width: 100%;
+    }
+    
+    .weather-summary {
+        position: absolute;
+        margin-right: 35px;
+        top: 20px;
+        left: 20px;
+        background: #167973;
+        border-top: 2px dashed #ffffff;
+        border-left: 2px dashed #ffffff;
+        padding: 10px;
+        box-shadow: 4px 4px 0 0 #f4f4f4;
+        opacity: .90;
+        max-height: 217px;
+        line-height: .5;
+    }
+    
+    #forecast {
+        display: none;
+    }
+    
+    .social-link img {
+        width: 25px;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    #banner-top {
+        display: none;
+        text-align: center;
     }

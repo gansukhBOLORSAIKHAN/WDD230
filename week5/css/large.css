@@ -4,7 +4,6 @@
         justify-content: center;
     }
     nav ul li.hide~* a {
-        /* display: none; */
         padding: 0;
         height: 0;
     }

@@ -28,6 +28,28 @@
         padding-bottom: 1rem;
     }
     
+    section.article p {
+        padding-left: 10px;
+    }
+    
+    section.article .img-holder {
+        float: right;
+        width: 50%;
+        max-width: 300px;
+        padding: 0.5rem 0 0 0.5rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .img-holder img {
+        width: 100%;
+    }
+    
+    section.summary {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
     footer {
         background: #1dcfc6;
     }

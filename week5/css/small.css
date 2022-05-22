@@ -45,6 +45,14 @@
         width: 100%;
     }
     
+    div.social-links .fa-flickr:hover {
+        cursor: pointer;
+        background: linear-gradient(90deg, royalblue, deeppink);
+        background-clip: padding-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
     section.summary {
         display: grid;
         grid-template-columns: 1fr 1fr;

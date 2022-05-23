@@ -108,7 +108,8 @@
     }
     
     .cloudy-logo {
-        display: flex;
+        display: grid;
+        grid-column: 3fr 2fr;
         justify-content: center;
         max-width: 50px;
     }

@@ -115,12 +115,14 @@
     
     table {
         display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
     }
     
     td,
     th {
         width: 150px;
-        border: 2px linen white;
+        border: 2px dashed white;
     }
     
     .container-table {

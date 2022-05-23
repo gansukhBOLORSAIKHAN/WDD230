@@ -110,6 +110,7 @@
     .cloudy-logo {
         display: flex;
         justify-content: center;
+        max-width: 900px
     }
     
     table {
@@ -135,11 +136,6 @@
         display: block;
     }
     
-    .expand-menu li:first-child a {
-        color: #111111;
-        text-decoration: none;
-    }
-    
     .banner-hero {
         position: relative;
     }
@@ -153,7 +149,7 @@
         margin-right: 35px;
         top: 20px;
         left: 20px;
-        background: #167973;
+        background: #1aecde;
         border-top: 2px dashed #ffffff;
         border-left: 2px dashed #ffffff;
         padding: 10px;
@@ -161,10 +157,6 @@
         opacity: .90;
         max-height: 217px;
         line-height: .5;
-    }
-    
-    #forecast {
-        display: none;
     }
     
     .social-link img {

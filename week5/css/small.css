@@ -110,7 +110,7 @@
     .cloudy-logo {
         display: flex;
         justify-content: center;
-        max-width: 100px
+        max-width: 50px;
     }
     
     table {

@@ -104,8 +104,9 @@
     }
     
     .card-content {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 2fr;
     }
     
     .cloudy-logo {

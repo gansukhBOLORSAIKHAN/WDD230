@@ -165,16 +165,16 @@
     }
     
     .social-link img {
-        width: 25px;
+        width: 20px;
     }
     
     .contact-info {
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: left;
     }
     
     #banner-top {
         display: none;
-        text-align: center;
+        text-align: auto;
     }

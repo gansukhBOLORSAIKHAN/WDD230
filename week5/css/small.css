@@ -125,7 +125,7 @@
     td,
     th {
         width: 150px;
-        border: 2px dashed white;
+        border: 1px white;
     }
     
     .container-table {

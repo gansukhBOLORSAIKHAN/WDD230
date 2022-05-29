@@ -31,8 +31,12 @@
     }
     
     main figure.myphoto {
-        width: 10%;
+        width: 50%;
         border: 1px black dashed;
+    }
+    
+    main figure.myphoto img {
+        width: 100%
     }
     
     footer {

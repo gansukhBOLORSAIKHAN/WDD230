@@ -30,6 +30,11 @@
         padding-bottom: 1rem;
     }
     
+    main figure.myphoto {
+        width: 50%;
+        border: 1px black dashed;
+    }
+    
     footer {
         background: #1dcfc6;
     }

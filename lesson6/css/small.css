@@ -173,6 +173,11 @@
         line-height: .5;
     }
     
+    .summary p {
+        text-align: left;
+        margin: 0;
+    }
+    
     #small {
         position: absolute;
         top: 40px;

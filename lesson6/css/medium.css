@@ -20,6 +20,20 @@
         line-height: 1;
         max-height: 100%;
     }
+    #small,
+    #large {
+        display: none;
+    }
+    #medium {
+        display: initial;
+        position: absolute;
+        top: 40px;
+        left: 400px;
+        width: 100px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
     .card-content {
         flex-direction: row;
     }

@@ -173,6 +173,16 @@
         line-height: .5;
     }
     
+    #small {
+        position: absolute;
+        top: 40px;
+        left: 400px;
+        width: 100px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
     .social-link img {
         width: 20px;
     }

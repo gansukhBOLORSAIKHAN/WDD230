@@ -32,7 +32,7 @@
     
     main figure.myphoto {
         width: 50%;
-        border: 1px black dashed;
+        border: 1px black;
     }
     
     main figure.myphoto img {

@@ -33,11 +33,13 @@
         </ul>
     </nav>
     <div id="form">
-        <form action="/wdd230/lesson8/thanks.html">
+        <form action="/join.html/thankyou.html">
 
-            <h3>Contact Information</h3>
 
-            <label for="name">Name: *<br>
+            <label for="name">First Name: *<br>
+        <input type="text" id="name" name="name" required="required" minlength="5" pattern="[A-Za-z]{-5}"></label><br>
+
+            <label for="name">last Name: *<br>
         <input type="text" id="name" name="name" required="required" minlength="5" pattern="[A-Za-z]{-5}"></label><br>
 
             <label for="email">Email:<br>
@@ -46,48 +48,24 @@
             <label for="number">Phone Number: *<br>
         <input type="tel" id="number" name="number" required="required"></label><br>
 
-            <label for="zip">Zip Code: *<br>
-        <input type="number" id="zip" name="zip" required="required"></label><br>
+            <label for="title text">business name: *<br>
+        <input type="text" id="zip" name="business name" required="required"></label><br>
 
-            <h3>Storm Information</h3>
+            <label for="membership">membership level:<br> 
+        <select id="membership" name="membership" size="4">
+            <option value="Select membership..." disabled="disabled" selected>Select membership...</option>
+            <option value="NP">NP Membership</option>
+            <option value="Bronze">Bronze Membership</option>
+            <option value="Silver">Silver Membership</option>
+            <option value="Gold">Gold Membership</option>
+        </select></label><br>
+
+            <label for="business discription">description textarea<br>
+        <textarea id="userinput" name="userinput" rows="5" cols="30">
+        </textarea></label><br>
 
             <label for="day">Date:<br>
         <input type="date" id="day" name="day"></label><br>
-
-            <label for="type">Storm Type:<br>
-        <input list="types" id="type" name="type"> 
-        <datalist id="types">
-            <option value="Flash Flood">
-            <option value="Hail">
-            <option value="Hurricane">
-            <option value="Thunderstorm">
-            <option value="Tornado">
-        </datalist></label><br>
-
-            <label for="severity">Storm Severity:<br>
-        <input type="number" id="severity" name="severity" min="1" max="10"></label><br>
-
-            <label for="region">Storm Region:<br> 
-        <select id="region" name="region" size="3">
-            <option value="Select Region..." disabled="disabled" selected>Select Region...</option>
-            <option value="Preston">Preston</option>
-            <option value="Soda Springs">Soda Spring</option>
-            <option value="Fish Haven">Fish Haven</option>
-        </select></label><br>
-
-            <p>Are you in danger?</p>
-            <label for="yes">Yes
-        <input type="radio" id="yes" name="yes"></label>
-            <label for="maybe">Maybe
-        <input type="radio" id="maybe" name="maybe"></label>
-            <label for="no">No
-        <input type="radio" id="no" name="no"><br></label>
-
-            <h3>Additional Information</h3>
-
-            <label for="userinput"><br>
-        <textarea id="userinput" name="userinput" rows="5" cols="30">
-        </textarea></label><br>
 
             <input type="submit" value="Submit">
 

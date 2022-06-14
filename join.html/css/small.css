@@ -180,8 +180,3 @@
         flex-direction: column-reverse;
         align-items: left;
     }
-    
-    #banner-top {
-        display: none;
-        text-align: left;
-    }

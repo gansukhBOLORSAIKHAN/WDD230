@@ -1,9 +1,11 @@
+/* small css for lesson 9 prophets */
+
 body {
     font-family: 'Ubuntu', sans-serif;
 }
 
 header {
-    color: blue;
+    color: rgb(21, 21, 131);
     text-align: center;
 }
 
@@ -14,16 +16,16 @@ header {
 }
 
 h2 {
-    color: blue;
+    color: rgb(43, 43, 91);
 }
 
 main {
     padding: 5px;
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 20px rgb(74, 69, 69);
 }
 
 section {
-    border: 1px solid blue;
+    border: 1px solid rgb(139, 139, 218);
     border-radius: 10px;
     text-align: center;
     background-color: lightgrey;
